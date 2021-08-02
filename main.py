@@ -56,11 +56,29 @@ if IncDlcBoss == "y":
     for i in DlcBoss.readlines():
         boss.append(i[:-1])
 to_out = "["
-for i in range(24):
-    random.shuffle(wep)
-    random.shuffle(boss)
-    to_out = to_out + '{"name" : "kill "' + boss[0] + ' with ' + wep[0] + '"},'
-random.shuffle(wep)
-random.shuffle(boss)
-to_out = to_out + '{"name" : "kill "' + boss[0] + ' with ' + wep[0] + '"}]'
-print(to_out)
+
+nBingoSq = 25
+bAllowRepeatBosses = True
+
+# randomise bosses and weapons
+if bAllowRepeatBosses:
+    randbosses = random.choices(boss, k=nBingoSq)
+else:
+    randbosses = random.sample(boss, nBingoSq)
+
+# currently always assume unique weapons
+randweapons = random.sample(wep, nBingoSq)
+
+# open file for output:
+f = open('./bingolist.txt', "w")
+
+# main file print loop
+for i in range(nBingoSq):
+    if i == 0:
+        f.write('[\n{"name" : "kill ' + randbosses[i] + ' with ' + randweapons[i] + '"}')
+    else:
+        linestr = ',\n{"name" : "kill ' + randbosses[i] + ' with ' + randweapons[i] + '"}'
+        f.write(linestr)
+# finish and close file
+f.write("\n]\n")
+f.close()
