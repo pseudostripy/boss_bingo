@@ -15,6 +15,7 @@ def append_to_list(fname, inputlist):
 config = ConfigParser()
 config.read('bingoconfig.ini')
 
+nBingoSq = config.getint('Default', 'Bingo Squares')
 bPredrang = config.getboolean('Options', 'preshrine board')
 bDLCbosses = config.getboolean('Options', 'dlc bosses')
 bSpells = config.getboolean('Options', 'spells')
@@ -23,15 +24,9 @@ bTorture = config.getboolean('Options', 'torture')
 bUniqueBosses = config.getboolean('Options', 'Unique bosses')
 
 # simple user traps:
-if bUniqueBosses and bPredrang and not bDLCbosses:
-    warnings.warn('Impossible to have unique bosses pre-drangleic and without dlc bosses. Setting overridden.')
-    bUniqueBosses = False
 if bTorture and bPredrang:
     warnings.warn('Torture always includes post drangleic. Setting overridden.')
     bPredrang = False
-
-
-nBingoSq = 25
 
 # read bosses/weapons based on config
 wep = []
@@ -64,6 +59,10 @@ if not bPredrang:
 
 
 # randomise bosses and weapons
+if len(boss) < nBingoSq:
+    warnings.warn('Impossible to have unique bosses with these settings (not enough bosses). Setting overridden.')
+    bUniqueBosses = False
+    
 if bUniqueBosses:
     randbosses = random.sample(boss, nBingoSq)
 else:
