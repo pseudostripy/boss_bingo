@@ -5,7 +5,7 @@ from configparser import ConfigParser
 
 # function for reading the .txt files
 def append_to_list(fname, inputlist):
-    fh = open(fname, 'r')
+    fh = open('datalists/'+fname, 'r')
     for name in fh.readlines():
         inputlist.append(name[:-1])
     return inputlist

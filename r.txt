@@ -1,1 +1,0 @@
-include farming weapons? (y/n))include post shrine weapons? (y/n))
