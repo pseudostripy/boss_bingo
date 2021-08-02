@@ -1,0 +1,137 @@
+Dagger
+Royal Dirk
+Black Flamestone Dagger
+Parrying Dagger
+Bandit's Knife
+Mytha's Bent Blade
+Broken Thief Sword
+Shortsword
+Longsword
+Yellow Quartz Longsword
+Broken Straight Sword 
+Broadsword
+Heide Knight Sword
+Red Rust Sword
+Bastard Sword
+Bluemoon Greatsword
+Claymore
+Flamberge
+Drangleic Sword
+Thorned Greatsword
+Mastodon Greatsword
+Ruler's Sword
+Mirrah Greatsword
+Black Knight Greatsword
+Defender Greatsword
+Watcher Greatsword
+Key to the Embedded
+Pursuer's Ultra Greatsword
+Zweihander
+Drakewing Ultra Greatsword
+King's Ultra Greatsword
+Black Knight Ultra Greatsword
+Greatsword
+Smelter Sword
+Lost Sinner's Sword
+Scimitar
+Red Rust Scimitar
+Spider Fang
+Melu Scimitar
+Falchion
+Shotel
+Warped Sword
+Murakumo
+Arced Sword
+Curved Dragon Greatsword
+Uchigatana
+Washing Pole
+Manslayer
+Darkdrift
+Estoc
+Mail Breaker
+Rapier
+Ricard's Rapier
+Black Scorpion Stinger
+Spider's Silk
+Espada Ropera
+Dragonslayer's Crescent Axe
+Bound Hand Axe
+Hand Axe
+Battle Axe
+Bandit Axe
+Gyrm Axe
+Butcher's Knife
+Greataxe
+Bandit Greataxe
+Giant Stone Axe
+Gyrm Greataxe
+Black Knight Greataxe
+Drakekeeper's Greataxe
+Crescent Axe
+Homunculus Mace
+Craftman's Hammer
+Mace
+Club
+Morning Star 
+Reinforced Club
+Mace of the Insolent
+Handmaid's Ladle
+Blacksmith's Hammer
+Barbed Club
+Large Club
+Great Club
+Iron King Hammer
+Malformed Shell
+Malformed Skull
+Dragon Tooth
+Giant Warrior Club
+Old Knight Hammer
+Sacred Chime Hammer
+Caestus
+Claws 
+Work Hook
+Winged Spear 
+Partizan
+Spear
+Pike
+Pate's Spear
+Spitfire Spear
+Dragonslayer Spear
+Gargoyle Bident
+Dragonrider's Halberd
+Halberd
+Lucerne
+Scythe
+Santier's Spear
+Blue Knight's Halberd
+Old Knight Halberd
+Old Knight Pike 
+Black Knight Halberd
+Roaring Halberd
+Helix Halberd
+Grand Lance
+Chariot Lance
+Great Scythe
+Bone Scythe
+Scythe of Nahr Alma
+Scythe of Want
+Twinblade
+Dragonrider Twinblade
+Red Iron Twinblade
+Whip
+Notched Whip
+Spotted Whip
+Short Bow
+Long Bow
+Composite Bow
+Dragonrider Bow
+Hunter's Blackbow
+Dragonslayer Greatbow
+Light Crossbow
+Heavy Crossbow
+Shield Crossbow
+Avelyn
+Sorcery
+Pyromancy
+Miracles
+Hexes
