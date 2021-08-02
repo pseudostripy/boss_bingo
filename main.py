@@ -62,7 +62,7 @@ if not bPredrang:
 if len(boss) < nBingoSq:
     warnings.warn('Impossible to have unique bosses with these settings (not enough bosses). Setting overridden.')
     bUniqueBosses = False
-    
+
 if bUniqueBosses:
     randbosses = random.sample(boss, nBingoSq)
 else:

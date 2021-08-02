@@ -53,3 +53,4 @@ Spear
 Silverblack Spear
 Varangian Sword
 Heide Knight Sword
+Heide Greatlance
