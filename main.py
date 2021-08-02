@@ -1,4 +1,5 @@
 import random
+import warnings
 from configparser import ConfigParser
 
 
@@ -22,9 +23,13 @@ bTorture = config.getboolean('Options', 'torture')
 bUniqueBosses = config.getboolean('Options', 'Unique bosses')
 
 # simple user traps:
+if bUniqueBosses and bPredrang and not bDLCbosses:
+    warnings.warn('Impossible to have unique bosses pre-drangleic and without dlc bosses. Setting overridden.')
+    bUniqueBosses = False
 if bTorture and bPredrang:
-    print('Torture always includes post drangleic! Overriding.')
+    warnings.warn('Torture always includes post drangleic. Setting overridden.')
     bPredrang = False
+
 
 nBingoSq = 25
 
