@@ -59,8 +59,8 @@ to_out = "["
 for i in range(24):
     random.shuffle(wep)
     random.shuffle(boss)
-    to_out = to_out + "{\"name\"  :  \"kill " + boss[0] + " with " + wep[0] + "\"},"
+    to_out = to_out + '{"name" : "kill "' + boss[0] + ' with ' + wep[0] + '"},'
 random.shuffle(wep)
 random.shuffle(boss)
-to_out = to_out + "{\"name\"  :  \"kill " + boss[0] + " with " + wep[0] + "\"}]"
+to_out = to_out + '{"name" : "kill "' + boss[0] + ' with ' + wep[0] + '"}]'
 print(to_out)
